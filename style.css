@@ -1,0 +1,86 @@
+
+
+body {
+	background-image: url("images/spacebackground.gif");
+}
+
+
+div.homepage{
+	border: 1px double purple;
+	width: auto;
+	margin:0 auto;
+	padding: 5px;
+	text-align: left;
+	position: relative
+}
+
+div{
+	text-align:center;
+}
+
+div.header{
+	border: 2px solid blue;
+	width:auto;
+	height:auto;	
+	
+	font-family:Cursive, "Lucida Handwriting";
+	color: white;
+	font-size: 32px;
+	
+	background-image: url("images/017.gif");
+}
+
+div.left_column{
+	width:20%;
+	float:left;
+	margin:10px 0 10px 5px;
+	height:auto;
+}
+
+div.centre_column{
+	
+	position: relative;
+	 
+	padding: 5px;
+	margin: 10px auto auto auto;
+	min-height:500px;
+	height:auto;
+	
+	max-width: 100%;
+	width: fit-content;
+	color: white;
+	font-family: Cursive, "Lucida Handwriting";
+	font-size: 20px;
+	text-align: center;
+ 
+}
+
+div.right_column{
+	position:absolute;
+	top: 200px;
+	right:10px;
+	width:20%;
+	margin:0;
+	height:auto;
+	
+
+}
+
+
+div.footer{
+	border:2px solid blue;
+	width:auto;
+	height:auto; 
+}
+img#flip{
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #333;
+  color: #ff0;
+  border-radius: 0px;
+  /* Add more styles as needed */
+}
+
