@@ -30,7 +30,7 @@ div.header {
 }
 
 div.column {
-    float: left; 
+    flex: 50%; 
 }
 
 div.left{
@@ -42,7 +42,9 @@ div.right {
     width: 33%;
     border: 2px solid blue;
 }
-
+div.row {
+    display: flex;
+}
 
 
 
