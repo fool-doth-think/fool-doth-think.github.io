@@ -1,3 +1,14 @@
 body {
     background-image: url("images/qcu50122.jpg");
+    text-align: center;
+    color: red;
+    font-family: monospace, "Courier New";
 }
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+
