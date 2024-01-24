@@ -30,10 +30,18 @@ div.column {
 
 div.left{
     width: 75%;
+    border: 2px solid blue;
 }
 
 div.right {
     width: 25%;
+    border: 2px solid green;
+}
+
+.row:after {
+    content: "";
+    display: "table";
+    clear: "both";
 }
 
 
