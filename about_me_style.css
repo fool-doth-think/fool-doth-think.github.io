@@ -15,6 +15,29 @@ p {
     font-size: 24px;
 }
 
+
+div.header {
+    border: 2px solid blue;
+	width:auto;
+	height:auto;
+
+    background-image: url("images/mountainfractal.jpg");
+}
+
+div.column {
+    float: left; 
+}
+
+div.left{
+    width: 75%;
+}
+
+div.right {
+    width: 25%;
+}
+
+
+
 img#flip{
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
