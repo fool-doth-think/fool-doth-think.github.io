@@ -10,6 +10,11 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
 
 p {
     font-size: 24px;
@@ -29,20 +34,16 @@ div.column {
 }
 
 div.left{
-    width: 75%;
-    border: 2px solid blue;
-}
-
-div.right {
-    width: 25%;
+    width: 67%;
     border: 2px solid green;
 }
 
-.row:after {
-    content: "";
-    display: "table";
-    clear: "both";
+div.right {
+    width: 33%;
+    border: 2px solid blue;
 }
+
+
 
 
 
