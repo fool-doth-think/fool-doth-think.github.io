@@ -34,13 +34,11 @@ div.header {
 }
 
 .left {
-    width: 67%;
-    border: 2px solid green;
+    width: 69%;
 }
 
 .right {
-    width: 33%;
-    border: 2px solid blue;
+    width: 30%;
 }
 
 .row:after {
