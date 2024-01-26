@@ -1,0 +1,44 @@
+
+
+body {
+    background-color: #000011;
+    font-size: 20px;
+}
+
+
+div.header {
+    
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #110033;
+    font-family:Cursive, "Brush Script MT";
+    width: 98%;
+    border: 2px solid #ff0fff; 
+    margin: 1%;    
+}
+
+div.main_body {
+    text-align: left;
+    font-family:Cursive, "Brush Script MT";
+    color: white;
+    background-color: #331177;
+    width: 98%;
+    border: 2px solid #ff0fff; 
+    margin: 1%;   
+}
+
+div.footer {
+    font-size: larger;
+    text-align: center;
+    font-family:Cursive, "Brush Script MT";
+    color: white;
+    background-color: #110033;
+    width: 98%;
+    border: 2px solid #ff0fff; 
+    margin: 1%;   
+}
+
+a {
+    color: white;
+}
