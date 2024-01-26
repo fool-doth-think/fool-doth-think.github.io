@@ -4,6 +4,9 @@ body {
 	background-image: url("images/spacebackground.gif");
 }
 
+a {
+	color: #ff00ff;
+} 
 
 div.homepage{
 	border: 1px double purple;
